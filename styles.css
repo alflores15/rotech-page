@@ -1,0 +1,737 @@
+/** Estilos principales **/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/** Estilos header **/
+
+header{
+    background-color: #5A4AE3;
+}
+
+
+ul{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li:hover{
+    color: orangered;
+}
+
+.headerprime{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 250px;
+    height: 80px;
+}
+
+
+.headersecondo{
+    color: #efefef;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+
+.headersecondo ul{
+    text-align: center;
+}
+
+.headerterzo{
+    background-color: #5A4AE3;
+    color: #efefef;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+
+.sesion{
+    background-color: #efefef;
+    color: #5A4AE3;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hamburger{
+    display: none;
+}
+
+/** Estilos logotipos **/
+
+ul li .logotipo{
+    width: 70px;
+    padding-top: 4px;
+}
+
+
+/** Estilos jumbotron **/
+
+.descuento{
+    color: #efefef;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #5A4AE3;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 55px;
+    cursor: pointer;
+    height: 27px;
+}
+.eslogan{
+    font-size: 48px;
+    color: #efefef;
+    color: rgb(250, 226, 9);
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imagen{
+    width: 800px;
+    height: 500px;
+    padding: 5px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #efefef;
+    border: 5px solid #efefef;
+    gap: 180px;
+}
+
+.fondo{
+    display: grid;
+    align-items: center;
+    place-items: center;
+}
+
+/** Estilo de formulario **/
+
+.textos{
+    height: 600px;
+}
+
+.logotipotexto{
+    width: 200px;
+    margin-left: 60px;
+}
+
+.apartadotexto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    height: 450px;
+}
+.formulario{
+    display: grid;
+    place-items: center;
+    height: 100px;
+}
+
+.correo{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #5A4AE3;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #efefef;
+}
+
+.enviar{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #5A4AE3;
+    background-color: orangered;
+    cursor: pointer;
+    font-weight: bold;
+    color: #efefef;
+}
+
+/** Estilos de galeria **/
+
+.galeria{
+    background-color: #5A4AE3;
+    border: 5px solid #5A4AE3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+}
+.card{
+    display: grid;
+    place-items: center;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.titulogaleria{
+    background-color: #5A4AE3;
+    color: orangered;
+    text-align: center;
+    border: 5px solid #5A4AE3;
+    height: 60px;
+}
+
+.titulocard{
+    color: orangered;
+    color: rgb(250, 226, 9);
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.infoteclado h3{
+    color: #efefef;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imagenteclado{
+    width: 500px;
+    height: 300px;
+}
+
+/** Estilos adicionales **/
+
+.textosadicionales{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.adicionales{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    height: 600px;
+    background-color: #efefef;
+}
+
+.h2adicional{
+    text-align: center;
+}
+
+.flexadicional{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.botonadicional{
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #5A4AE3;
+    background-color: orangered;
+    cursor: pointer;
+    font-weight: bold;
+    color: #efefef;
+}
+
+.nivel{
+    font-size: 48px;
+    color: #efefef;
+    color: rgb(250, 226, 9);
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+}
+
+/** Estilos de footer **/
+
+.footerprime{
+    background-color: #efefef;
+    border: 5px solid #efefef;
+}
+
+.footersecondo{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 690px;
+}
+
+.footertextos{
+    color: #5A4AE3;
+}
+
+.footerterzo{
+    height: 30px;
+}
+
+.footerterzo p{
+    font-size: 20px;
+    text-align: center;
+    color: orangered;
+    border-top: 2px solid orangered;
+    font-weight: bold;
+}
+
+
+/** Estilo de vectores sociales **/
+.icons{
+    padding: 8px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+
+/** Media Queries **/
+
+/** Para móviles **/
+
+
+/** Para computadoras pequeñas **/
+@media screen and (max-width: 1480px) {
+    .contenedor{
+        gap: 5px;
+    }
+
+    .imagenteclado{
+        width: 450px;
+        gap: 2px;
+        padding-right: 5px;
+    }
+
+    .imagen{
+        padding-right: 10px;
+        width: 650px;
+        height: 350px;
+    }
+
+    .nivel{
+        font-size: 40px;
+    }
+
+    .h2adicional{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 1400) {
+    .imagen{
+        width: 400px;
+        height: 350px;
+    }
+
+    form{
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media screen  and (max-width: 1160px) {
+    .contenedor{
+        gap: 5px;
+    }
+    
+    .imagen{
+        width: 480px;
+        height: 300px;
+    }
+
+    .correo{
+        margin-left: 10px;
+        width: 475px;
+    }
+
+    .enviar{
+        margin-left: 10px;
+    }
+    
+    .imagenteclado{
+        width: 300px;
+        height: 200px;
+    }
+
+    .footersecondo{
+        gap: 25px;
+    }
+
+    .headerprime{
+        gap: 25px;
+    }
+
+    form{
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .eslogan{
+        font-size: 34px;
+    }
+
+    .correo{
+        width: 350px;
+    }
+
+    .descuento{
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .nivel{
+        font-size: 30px;
+    }
+
+    .imagen{
+        width: 400px;
+        height: 200px;
+    }
+
+    form{
+        display: grid;
+        place-items: center;
+    }
+
+}
+
+@media screen and (max-width: 914px) {
+    .imagenteclado{
+        width: 250px;
+        height: 150px;
+    }
+
+    form{
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media screen and (max-width: 814px) {
+    .imagen{
+        width: 350px;
+        height: 200px;
+    }
+
+    .eslogan{
+        font-size: 28px;
+    }
+
+    .nivel{
+        font-size: 28px;
+    }
+    .h2adicional{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .apartadotexto{
+        height: 350px;
+    }
+    .textos{
+        height: 500px;
+    }
+    .headerprime ul li{
+        font-size: 12px;
+    }
+
+    .contenedor{
+        grid-template-columns: 1fr auto;
+    }
+
+    .descuento{
+        width: 300px;
+        font-size: 12px;
+        margin-left: 200px;
+    }
+
+    .correo{
+        width: 300px;
+    }
+
+    .textos{
+        grid-template-rows: 1fr 1fr;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    .titulocard{
+        font-size: 34px;
+    }
+
+    .galeria{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 400px;
+    }
+
+    .card{
+        place-items: none;
+    }
+
+    .imagenteclado{
+        width: 200px;
+        height: 150px;
+    }
+
+    .footerterzo p{
+        font-size: 14px;
+    }
+
+    .imagen{
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .botonadicional{
+        font-size: 12px;
+        width: 140px;
+    }
+
+    .descuento{
+        margin-left: 150px;
+    }
+    
+    .correo{
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .enviar{
+        font-size: 14px;
+    }
+
+    .footersecondo li{
+        font-size: 14px;
+    }
+
+    .imagen{
+        width: 250px;
+        height: 130px;
+    }
+    
+    .imagenteclado{
+        width: 180px;
+        height: 130px;
+    }
+
+    .apartadotexto{
+        height: 360px;
+    }
+
+    .textos{
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fondo{
+        height: 300px;
+    }
+    
+    .textos{
+        height: 450px;
+    }
+
+    .eslogan{
+        font-size: 22px;
+    }
+
+    .correo{
+        width: 200px;
+        font-size: 12px;
+    }
+    .enviar{
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .apartadotexto{
+        height: 300px;
+    }
+
+    .descuento{
+        margin-left: 120px;
+    }
+
+    .fondo{
+        height: 180px;
+    }
+
+    .logotipotexto{
+        height: 150px;
+        width: 180px;
+    }
+
+    .card{
+        height: 280px;
+    }
+
+    .galeria{
+        height: 300px;
+    }
+
+    .imagenteclado{
+        width: 160px;
+        height: 80px;
+    }
+
+    .h2{
+        font-size: 12px;
+    }
+
+    .titulocard{
+        font-size: 22px;
+    }
+    .nivel{
+        font-size: 22px;
+    }
+
+    .titulogaleria{
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   /** Imagenes **/
+
+   .hamburger{
+    display: block;
+   }
+
+   .contenedor{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .fondo{
+        height: 300px;
+    }
+    
+    .textos{
+        height: 450px;
+    }
+
+    .eslogan{
+        font-size: 22px;
+    }
+
+    .correo{
+        width: 200px;
+        font-size: 12px;
+    }
+    .enviar{
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .apartadotexto{
+        height: 320px;
+    }
+
+    .descuento{
+        margin-left: 40px;
+    }
+
+    .fondo{
+        height: 180px;
+    }
+
+    .logotipotexto{
+        height: 150px;
+        width: 180px;
+    }
+
+    .card{
+        height: 280px;
+    }
+
+    .galeria{
+        height: 450px;
+    }
+
+    .imagenteclado{
+        width: 160px;
+        height: 80px;
+    }
+
+    .h2{
+        font-size: 12px;
+    }
+
+    .titulocard{
+        font-size: 22px;
+    }
+    .nivel{
+        font-size: 22px;
+    }
+
+    .titulogaleria{
+        height: 40px;
+    }
+
+    .galeria{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .adicionales{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .esconder{
+        display: none;
+    }
+
+    .footerterzo p{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 355px) {
+    .descuento{
+        width: 250px;
+        font-size: 10px;
+    }
+    
+}
+
